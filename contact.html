@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Крутий Сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader"></div>
+    <div id="content" class="hidden">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="services.html">Послуги</a></li>
+                    <li><a href="testimonials.html">Відгуки</a></li>
+                    <li><a href="blog.html">Блог</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="contact">
+                <h2>Контакти</h2>
+                <p>Напишіть нам: <a href="mailto:info@kruitsite.com">info@kruitsite.com</a></p>
+                <p>Зателефонуйте нам: +38 (123) 456-7890</p>
+                <p>Адреса: вул. Прикладна, 1, Київ, Україна</p>
+                <h3>Контактна форма</h3>
+                <form>
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Повідомлення:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Відправити</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Крутий Сайт. Всі права захищені.</p>
+        </footer>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
